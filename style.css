@@ -1,0 +1,144 @@
+:root {
+  --bg: #fffaf5;
+  --primary: #814357;
+  --accent: #a17ddd;
+  --light: #fce4ec;
+  --text-dark: #333;
+  --text-soft: #666;
+}
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 1rem;
+  background: linear-gradient(rgb(227, 232, 166), #ffd8fa);
+  background-color: #f9baff;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.imagen{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border:5px solid #770360;
+  object-fit: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --accent-color: #84c8ff;}
+ 
+  nav {
+      background-color:plum;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: var(--light-text);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: var(--bg);
+  color: var(--text-dark);
+}
+
+.container {
+  
+      display: block;
+      width: 100%;
+    
+}
+
+aside {
+  background: var(--light);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 4px solid var(--primary);
+}
+
+aside img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid var(--primary);
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+aside h1 {
+  font-size: 2rem;
+  color: var(--accent);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+aside p {
+  text-align: center;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
+main {
+  padding: 3rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.box {
+  background-color: #ffffff;
+  
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+
+.box h2 {
+  color: var(--primary);
+  
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+ul li::marker {
+  color: var(--primary);
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-soft);
+  background-color: #fce4ec;
+  font-size: 0.9rem;
+  border-top: 2px solid var(--primary);
+}
+
+.box1 { 
+  background: #ffdff9;
+  border-left: 6px solid var(--accent);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-style: unset;
+ 
+}
